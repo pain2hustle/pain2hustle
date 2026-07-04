@@ -50,6 +50,7 @@ I see **one pattern across three superpositions**: quantum (physics), features p
 - **Free-first / in-house.** Everything runs $0 on my own rotating pool of free models + local inference. I engineer around the constraint instead of buying past it.
 - **Honest guardrails, always.** Screening-grade is never sold as certified. Accuracy is a measured band, never a marketed number. I don't fake results — it's in the code.
 - **Ship and iterate.** Short scope, ship a chunk, watch real behavior, steer. A working thing to react to beats a frozen spec.
+- **I land the right prompt at the right moment — reliably, not by luck.** When the models out-muscle everyone on raw knowledge, the scarce skill is asking the *right* thing at the *right* time. That's my proven native mode; the repos show it firing on schedule, not once.
 - **I translate complexity to plain English.** My single strongest gift — I can take something genuinely hard and make a regular person *get it.*
 
 ---
