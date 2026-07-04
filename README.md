@@ -1,4 +1,4 @@
-<h1 align="center">Pain2HuStle</h1>
+<h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
 <p align="center"><b>Self-taught AI systems builder · multi-agent orchestration · I make complex systems legible.</b></p>
 <p align="center">Frontline tech → taught myself to build and run fleets of AI agents in ~90 days → shipped live products the whole way.</p>
 
