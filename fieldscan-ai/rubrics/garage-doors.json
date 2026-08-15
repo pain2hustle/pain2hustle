@@ -1,0 +1,53 @@
+{
+  "trade": "garage-doors",
+  "label": "Residential Garage Door Service",
+  "required_views": [
+    "opening",
+    "tracks",
+    "rollers",
+    "hinges",
+    "cables",
+    "springs",
+    "opener",
+    "photo-eye sensors",
+    "run test",
+    "safety reversal",
+    "cleanup"
+  ],
+  "unsafe_signs": [
+    "frayed or rusted cables",
+    "cracked or improperly-wound springs",
+    "missing or misaligned photo-eye sensors",
+    "damaged, bent, or misaligned tracks",
+    "missing cable retention / containment",
+    "loose or missing lag bolts on tracks or opener bracket",
+    "door binding or off-balance during travel"
+  ],
+  "score_criteria": [
+    "All required views are present and clearly photographed",
+    "No high-severity safety issues visible",
+    "Workmanship looks clean (aligned tracks, seated rollers, tidy wiring)",
+    "Evidence of a completed run test and safety reversal test",
+    "Work area cleaned up, no debris or old parts left behind"
+  ],
+  "bid_hint": {
+    "note": "Bid range is a ROUGH owner-facing estimate only. The model must NOT invent precise prices or quote a customer. The shop owner must confirm every number before use.",
+    "typical_line_items": [
+      "spring replacement (pair)",
+      "cable replacement",
+      "roller replacement",
+      "opener repair or replacement",
+      "track realignment",
+      "photo-eye sensor replacement",
+      "full tune-up / safety service"
+    ],
+    "usd_broad_ranges": {
+      "tuneup": [80, 200],
+      "spring_pair": [200, 500],
+      "cables": [150, 350],
+      "rollers": [120, 300],
+      "opener": [250, 700],
+      "full_replacement": [800, 2500]
+    }
+  }
+}

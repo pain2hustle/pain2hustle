@@ -1,0 +1,24 @@
+{
+  "name": "fieldscan-ai",
+  "version": "0.1.0",
+  "description": "FieldScan AI vision engine with per-user scan metering (Phase 0). Self-contained, deployable to any Cloudflare account.",
+  "type": "module",
+  "private": true,
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node test.mjs && node test-hvac.mjs && node test-agents.mjs && node test-runtime.mjs && node test-ui.mjs && node test-worker.mjs",
+    "test:core": "node test.mjs && node test-hvac.mjs",
+    "test:agents": "node test-agents.mjs",
+    "test:runtime": "node test-runtime.mjs",
+    "test:ui": "node test-ui.mjs",
+    "test:worker": "node test-worker.mjs",
+    "evaluate": "node scripts/evaluate-variants.mjs --run-tests",
+    "dev": "wrangler dev",
+    "predeploy": "npm test && node scripts/assert-no-bundled-secrets.mjs src rubrics plans.json wrangler.toml",
+    "deploy": "wrangler deploy",
+    "security:scan": "node scripts/assert-no-bundled-secrets.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

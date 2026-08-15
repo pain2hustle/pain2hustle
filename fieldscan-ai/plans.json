@@ -1,0 +1,7 @@
+{
+  "starter":   { "quota": 200,    "fairUse": false },
+  "pro":       { "quota": 1000,   "fairUse": false },
+  "unlimited": { "quota": 100000, "fairUse": true },
+  "test":      { "quota": 3,      "fairUse": false },
+  "_default":  "starter"
+}

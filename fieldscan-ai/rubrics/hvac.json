@@ -1,0 +1,69 @@
+{
+  "trade": "hvac",
+  "label": "HVAC and Commercial Refrigeration Service",
+  "equipment_families": [
+    "split air conditioner",
+    "split heat pump",
+    "gas or electric furnace",
+    "air handler or fan coil",
+    "ductless mini-split",
+    "packaged or rooftop unit",
+    "duct system or air distribution",
+    "walk-in or reach-in cooler or freezer",
+    "display case refrigeration",
+    "condensing unit",
+    "evaporator unit",
+    "boiler or hydronic system",
+    "chiller",
+    "VRF or VRV system",
+    "cooling tower",
+    "building controls or BAS",
+    "unknown"
+  ],
+  "job_modes": ["diagnostic", "maintenance", "repair", "installation", "commissioning", "callback", "unknown"],
+  "required_views": [
+    "wide equipment and safe access context",
+    "readable nameplate and equipment family",
+    "customer issue controller or alarm before work",
+    "energy isolation and electrical condition",
+    "coils filters fans fittings ducts and drains as applicable",
+    "measurements with instrument units mode and location",
+    "matched before and after repair views",
+    "controls alarms and complete operating cycle",
+    "store refrigeration equipment pair box case doors defrost drain and temperature as applicable",
+    "restored panels guards service caps cleanup and final safe state"
+  ],
+  "unsafe_signs": [
+    "live exposed electrical parts or uncontrolled hazardous energy",
+    "unsafe ladder landing rooftop edge or access path",
+    "intentional refrigerant release or unqualified refrigerant-circuit work",
+    "active fuel leak unsafe combustion damaged heat exchanger blocked or disconnected vent or carbon monoxide hazard",
+    "missing electrical panel access cover fan guard service cap or equipment panel after work",
+    "high-pressure industrial ammonia carbon dioxide transcritical boiler chiller cooling tower or complex VRF condition without qualified manager review",
+    "active commercial refrigeration alarm iced coil blocked drain failed door or gasket or unverified temperature closeout"
+  ],
+  "score_criteria": [
+    "Equipment and job mode are identified only from visible evidence",
+    "Only applicable views are required and non-applicable items are explained",
+    "Matched before and after angles clearly show components fittings ducts drains cases or boxes",
+    "Measurements include instrument units mode location conditions and named target source",
+    "No visible high-severity safety issue is ignored",
+    "Controls and complete operating cycle are documented",
+    "Panels guards service caps filters and work area are restored",
+    "Complex commercial and food-safety decisions are routed to a qualified manager"
+  ],
+  "manager_gates": [
+    "complex commercial equipment or controls",
+    "refrigerant circuit opened",
+    "combustion or carbon monoxide concern",
+    "electrical or hazardous-energy concern",
+    "rooftop or fall-protection concern",
+    "active refrigeration alarm or product-temperature concern",
+    "unknown equipment or unreadable nameplate"
+  ],
+  "bid_hint": {
+    "note": "HVAC/R pricing is disabled until the company connects its own rate book. Return 0/0 and state that a qualified manager must scope and confirm pricing.",
+    "typical_line_items": [],
+    "usd_broad_ranges": {}
+  }
+}

@@ -1,0 +1,50 @@
+name: FieldScan quality and source watch
+
+on:
+  push:
+    paths:
+      - "fieldscan-ai/**"
+      - ".github/workflows/fieldscan-quality.yml"
+  pull_request:
+    paths:
+      - "fieldscan-ai/**"
+      - ".github/workflows/fieldscan-quality.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 12 * * *"
+    - cron: "47 12 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fieldscan-ai
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
+      - run: npm run security:scan
+
+  official-source-watch:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '47 12 * * 0'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fieldscan-ai
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/source-watch.mjs > official-source-watch.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fieldscan-official-source-watch
+          path: fieldscan-ai/official-source-watch.json
+          retention-days: 30

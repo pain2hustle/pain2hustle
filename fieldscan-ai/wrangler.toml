@@ -1,0 +1,35 @@
+name = "fieldscan-ai"
+main = "src/index.mjs"
+compatibility_date = "2026-08-05"
+compatibility_flags = ["nodejs_compat"]
+
+# --- Vision provider ---
+# gemini = production (needs GEMINI_API_KEY secret). ollama = local dev only.
+[vars]
+FIELDSCAN_VISION_PROVIDER = "gemini"
+GEMINI_MODEL = "gemini-3.6-flash"
+FIELDSCAN_MAX_IMAGES = "12"
+FIELDSCAN_MAX_IMAGE_BYTES = "4194304"
+FIELDSCAN_MAX_TOTAL_IMAGE_BYTES = "16777216"
+FIELDSCAN_VISION_MAX_ATTEMPTS = "2"
+FIELDSCAN_RUBRIC_VERSION = "1"
+FIELDSCAN_PROMPT_VERSION = "1"
+
+# GEMINI_API_KEY is a SECRET, not a var. Set it with:
+#   wrangler secret put GEMINI_API_KEY
+# FIELDSCAN_AUTH_SECRET is also a SECRET. /scan fails closed without it.
+#   wrangler secret put FIELDSCAN_AUTH_SECRET
+
+# --- KV usage store (the meter) ---
+# Created with:  wrangler kv namespace create USAGE_KV
+[[kv_namespaces]]
+binding = "USAGE_KV"
+id = "7aff46e349614ecd8704fb4b29423e51"
+
+# D1 is preferred for atomic quota reservation when a DB binding is present.
+# Keep KV for the public demo and simple deployments; configure DB before
+# claiming a strict concurrent-spend ceiling in production.
+
+[observability]
+enabled = true
+head_sampling_rate = 1
