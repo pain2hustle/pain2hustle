@@ -32,6 +32,13 @@ const unauthorized = await worker.fetch(new Request("https://fieldscan.test/scan
 }), { FIELDSCAN_AUTH_SECRET: "configured" });
 assert.equal(unauthorized.status, 401);
 
+const wrongLength = await worker.fetch(new Request("https://fieldscan.test/scan", {
+  method: "POST",
+  headers: { "x-fieldscan-secret": "x" },
+  body: "{}",
+}), { FIELDSCAN_AUTH_SECRET: "a-much-longer-configured-secret" });
+assert.equal(wrongLength.status, 401);
+
 const taskList = await worker.fetch(new Request("https://fieldscan.test/tasks", {
   headers: { "x-fieldscan-secret": "configured" },
 }), { FIELDSCAN_AUTH_SECRET: "configured" });

@@ -1,5 +1,6 @@
 name = "fieldscan-ai"
 main = "src/index.mjs"
+account_id = "0ebf6d65d7a9ddccd41cba0b8bd1414c"
 compatibility_date = "2026-08-05"
 compatibility_flags = ["nodejs_compat"]
 
@@ -20,15 +21,12 @@ FIELDSCAN_PROMPT_VERSION = "1"
 # FIELDSCAN_AUTH_SECRET is also a SECRET. /scan fails closed without it.
 #   wrangler secret put FIELDSCAN_AUTH_SECRET
 
-# --- KV usage store (the meter) ---
-# Created with:  wrangler kv namespace create USAGE_KV
-[[kv_namespaces]]
-binding = "USAGE_KV"
-id = "7aff46e349614ecd8704fb4b29423e51"
+[[d1_databases]]
+binding = "DB"
+database_name = "fieldscan-ai"
+database_id = "efe8e6de-7380-40de-bbfa-2c6fdb9e4b97"
 
-# D1 is preferred for atomic quota reservation when a DB binding is present.
-# Keep KV for the public demo and simple deployments; configure DB before
-# claiming a strict concurrent-spend ceiling in production.
+# D1 supplies atomic quota reservation for both production and the public demo.
 
 [observability]
 enabled = true

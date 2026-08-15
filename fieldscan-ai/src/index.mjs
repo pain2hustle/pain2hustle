@@ -47,6 +47,24 @@ const html = (body) =>
 
 const createUsageStore = (env) => env.DB ? createD1Store(env.DB) : createKvStore(env.USAGE_KV);
 
+async function secretsMatch(provided, expected) {
+  const encoder = new TextEncoder();
+  const [providedHash, expectedHash] = await Promise.all([
+    crypto.subtle.digest("SHA-256", encoder.encode(provided || "")),
+    crypto.subtle.digest("SHA-256", encoder.encode(expected || "")),
+  ]);
+  if (typeof crypto.subtle.timingSafeEqual === "function") {
+    return crypto.subtle.timingSafeEqual(providedHash, expectedHash);
+  }
+  const providedBytes = new Uint8Array(providedHash);
+  const expectedBytes = new Uint8Array(expectedHash);
+  let mismatch = 0;
+  for (let index = 0; index < providedBytes.length; index++) {
+    mismatch |= providedBytes[index] ^ expectedBytes[index];
+  }
+  return mismatch === 0;
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -89,7 +107,7 @@ export default {
     const got =
       request.headers.get("x-fieldscan-secret") ||
       (request.headers.get("authorization") || "").replace(/^Bearer\s+/i, "");
-    if (got !== env.FIELDSCAN_AUTH_SECRET) return json({ error: "unauthorized" }, 401);
+    if (!(await secretsMatch(got, env.FIELDSCAN_AUTH_SECRET))) return json({ error: "unauthorized" }, 401);
 
     if (url.pathname === "/tasks" && request.method === "GET") {
       return json({ taskKeys: listTaskKeys() });

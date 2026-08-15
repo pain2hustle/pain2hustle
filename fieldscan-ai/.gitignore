@@ -1,3 +1,4 @@
 .dev.vars
 .wrangler/
+.wrangler-dry-run/
 node_modules/
