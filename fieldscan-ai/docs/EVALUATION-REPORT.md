@@ -30,9 +30,16 @@ at 8.2 until at least 20 labeled production scans exist.
 
 ## Remaining production work
 
-- Bind D1 in the deployment account before claiming a strict concurrent quota
-  ceiling; KV remains an eventual-consistency fallback.
 - Collect labeled field outcomes and calibrate the operational grade.
 - Add an actual response cache only after invalidation, privacy, and safety
   policies are approved. The current SHA-256 key is an idempotency receipt, not
   permission to reuse stale safety conclusions.
+
+## Deployment follow-up — 2026-08-15
+
+- D1 database `fieldscan-ai` is bound as `DB`; the remote schema applied.
+- Production reports `metering: d1-atomic`.
+- Worker version `871cb162-654d-453a-91b4-11582dfc8d37` is live at
+  `https://fieldscan-ai.pain2hustle1.workers.dev`.
+- Live checks passed for `/health`, the application shell, unauthorized scan
+  rejection, and the authenticated 18-key task registry.
