@@ -65,16 +65,16 @@ Text an agent by name (**Grok**, **Claude**, **Jubber**) from my phone and it do
 a **9-lane fleet** (6 cloud + 3 local LLM lanes) with a conductor that partitions work so agents can't collide, **free-first control flow** (cloud escalates only after local retries fail), a **"retry-till-real" quality gate** so it never ships a fake result, and a **self-refilling, deduped** queue for 24/7 autonomy. Runs **$0** on a rotating free-model pool.
 
 #### <a href="https://getroadscape.com"><img src="assets/icons/roadscape.png" alt="Roadscape" width="34" height="34" align="center"></a> Roadscape
-a corridor-safety **screening engine**: free public data (federal crash records, state traffic counts) + AASHTO swept-path geometry → evidence packets, a real-scale collision-free 3D traffic sim, and an agent that ranks real cities in need. Honest guardrails throughout — *screening-grade, never PE-stamped; measured vs. estimated always labeled; never a fabricated number.*
+A corridor-safety **screening engine**: free public data (federal crash records, state traffic counts) + AASHTO swept-path geometry → evidence packets, a real-scale collision-free 3D traffic sim, and an agent that ranks real cities in need. Honest guardrails throughout — *screening-grade, never PE-stamped; measured vs. estimated always labeled; never a fabricated number.*
 
 #### <a href="https://nothingunseen.com"><img src="assets/icons/nu.png" alt="Nothing Unseen" width="34" height="34" align="center"></a> Nothing Unseen
-a multi-source **search + investigation engine** with cross-source corroboration and cited AI briefs. Migrated off a capped host onto Cloudflare Workers; AI runs on a free-model pool ($0).
+A multi-source **search + investigation engine** with cross-source corroboration and cited AI briefs. Migrated off a capped host onto Cloudflare Workers; AI runs on a free-model pool ($0).
 
 #### 🐝 Apiary
-an accessibility-first web experience for the tech-isolated (the *"damn, grandma, how'd you do that?"* moment as the actual KPI) with a self-evolving article fleet that compounds on its own past insights.
+An accessibility-first web experience for the tech-isolated (the *"damn, grandma, how'd you do that?"* moment as the actual KPI) with a self-evolving article fleet that compounds on its own past insights.
 
 #### <a href="https://servicepricer.app"><img src="assets/icons/servicepricer.png" alt="Service Pricer" width="34" height="34" align="center"></a> Service Pricer
-rescued a 144-route Next.js app off a capped host onto Cloudflare Workers, keeping locked payment code untouched and squeezing it under a hard size cap. No regression.
+Rescued a 144-route Next.js app off a capped host onto Cloudflare Workers, keeping locked payment code untouched and squeezing it under a hard size cap. No regression.
 
 ---
 
