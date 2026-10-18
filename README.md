@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <a href="https://amhagentbook.com/poem/lab/?look=warp"><img src="assets/jubber-amh-clip.webp" alt="Through the wormhole to the AMH sign, then Jubber floats out and waves" width="720"></a>
+</p>
+
+<p align="center">
   <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
 </p>
 
@@ -24,6 +28,10 @@
   <a href="https://amhagentbook.com/poem/"><img src="assets/btn/poem.svg" alt="AI Poem Experiment" width="300"></a>
   <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="assets/btn/prime.svg" alt="Prime Hunt" width="300"></a>
   <a href="https://nothingunseen.com"><img src="assets/btn/nu.svg" alt="Nothing Unseen" width="300"></a>
+</p>
+
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="assets/ufo-flyto.webp" alt="The AMH UFO with Jubber flying in to the AMH sign past a golden black hole" width="100%"></a>
 </p>
 
 <p align="center">
