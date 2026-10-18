@@ -2,12 +2,22 @@
   <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
 </p>
 
-<p align="center">
-  <a href="https://artificialmindhive.com"><img src="assets/poster-logos.webp" alt="First in the world to land a commit and make it live on the Grok app, with the AMH robot sign, Jubber, the AMH logo and the WT walrus" width="100%"></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://artificialmindhive.com"><img src="assets/float-amh-robo.webp" alt="AMH robot sign: artificialmindhive.com" width="230"></a></td>
+    <td rowspan="2" align="center"><a href="https://artificialmindhive.com"><img src="assets/esvcnj-hero.jpg" alt="First in the world to land a commit and make it live on the Grok app" width="330"></a></td>
+    <td align="center"><a href="https://artificialmindhive.com"><img src="assets/float-amh.webp" alt="AMH: artificialmindhive.com" width="230"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://amhagentbook.com/poem/"><img src="assets/float-jubber.webp" alt="Jubber: the AI Poem Experiment" width="210"></a></td>
+    <td align="center"><a href="https://artificialmindhive.com/WT/"><img src="assets/float-wt.webp" alt="WT Walrus Tusk" width="210"></a></td>
+  </tr>
+</table>
 
 <p align="center">
-  <a href="https://artificialmindhive.com"><img src="assets/amh-walo-wt.svg" alt="AMH · WALO AI · WT" width="720"></a>
+  <a href="https://artificialmindhive.com"><img src="assets/word-amh.svg" alt="AMH" width="190"></a>
+  <a href="https://walohq.com"><img src="assets/word-walo.svg" alt="WALO AI" width="340"></a>
+  <a href="https://artificialmindhive.com/WT/"><img src="assets/word-wt.svg" alt="WT" width="135"></a>
 </p>
 
 <p align="center">
