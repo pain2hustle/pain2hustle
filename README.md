@@ -3,11 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://artificialmindhive.com"><img src="assets/esvcnj-hero.jpg" alt="ESVCNJ · El Senior Vibe Coder No jr · AMH Artificial Mind Hive" width="300"></a>
-</p>
-
-<p align="center">
-  <a href="https://artificialmindhive.com"><img src="assets/amh-logos-float.webp" alt="AMH robot sign, AMH logo, Jubber and the WT walrus" width="100%"></a>
+  <a href="https://artificialmindhive.com"><img src="assets/poster-logos.webp" alt="First in the world to land a commit and make it live on the Grok app, with the AMH robot sign, Jubber, the AMH logo and the WT walrus" width="100%"></a>
 </p>
 
 <p align="center">
@@ -22,6 +18,10 @@
   <a href="https://amhagentbook.com/poem/"><img src="assets/btn/poem.svg" alt="AI Poem Experiment" width="300"></a>
   <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="assets/btn/prime.svg" alt="Prime Hunt" width="300"></a>
   <a href="https://nothingunseen.com"><img src="assets/btn/nu.svg" alt="Nothing Unseen" width="300"></a>
+</p>
+
+<p align="center">
+  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-float.webp" alt="The AMH UFO with Jubber in the cockpit" width="560"></a>
 </p>
 
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
