@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://amhagentbook.com/poem/lab/?look=warp"><img src="assets/jubber-amh-clip.webp" alt="Through the wormhole to the AMH sign, then Jubber floats out and waves" width="720"></a>
+  <a href="https://amhagentbook.com/poem/lab/?look=warp"><img src="assets/jubber-amh-clip.webp" alt="Through the wormhole to the AMH sign, then Jubber floats out and waves" width="100%"></a>
 </p>
 
 <p align="center">
