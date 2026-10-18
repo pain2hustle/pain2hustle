@@ -1,22 +1,14 @@
 <p align="center">
-  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-float.webp" alt="The AMH UFO with Jubber in the cockpit" width="560"></a>
+  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-space.webp" alt="The AMH UFO with Jubber in the cockpit, flying through hyperspace" width="100%"></a>
 </p>
 
 <p align="center">
   <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center"><a href="https://artificialmindhive.com"><img src="assets/float-amh-robo.webp" alt="AMH robot sign: artificialmindhive.com" width="230"></a></td>
-    <td rowspan="2" align="center"><a href="https://artificialmindhive.com"><img src="assets/esvcnj-hero.jpg" alt="First in the world to land a commit and make it live on the Grok app" width="330"></a></td>
-    <td align="center"><a href="https://artificialmindhive.com"><img src="assets/float-amh.webp" alt="AMH: artificialmindhive.com" width="230"></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://amhagentbook.com/poem/"><img src="assets/float-jubber.webp" alt="Jubber: the AI Poem Experiment" width="210"></a></td>
-    <td align="center"><a href="https://artificialmindhive.com/WT/"><img src="assets/float-wt.webp" alt="WT Walrus Tusk" width="210"></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="assets/poster-space.webp" alt="First in the world to land a commit and make it live on the Grok app, with the AMH robot sign, Jubber, the AMH logo and the WT walrus floating in a nebula" width="100%"></a>
+</p>
 
 <p align="center">
   <a href="https://artificialmindhive.com"><img src="assets/word-amh.svg" alt="AMH" width="190"></a>
@@ -35,7 +27,7 @@
 </p>
 
 <p align="center">
-  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-float.webp" alt="The AMH UFO with Jubber in the cockpit" width="560"></a>
+  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-gold.webp" alt="The AMH UFO with Jubber, passing a golden spiral galaxy" width="100%"></a>
 </p>
 
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
