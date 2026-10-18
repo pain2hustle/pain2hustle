@@ -11,6 +11,10 @@
 </p>
 
 <p align="center">
+  <a href="assets/esvcnj-overview-2.jpg"><img src="assets/esvcnj-overview-2.jpg" alt="Austin Little · Pain2Hustle, part 2: the superposition deep dive and what I have built" width="100%"></a>
+</p>
+
+<p align="center">
   <a href="https://artificialmindhive.com"><img src="assets/poster-space.webp" alt="First in the world to land a commit and make it live on the Grok app, with the AMH robot sign, Jubber, the AMH logo and the WT walrus floating in a nebula" width="100%"></a>
 </p>
 
