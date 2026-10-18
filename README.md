@@ -3,11 +3,21 @@
 </p>
 
 <p align="center">
-  <a href="https://artificialmindhive.com"><img src="https://img.shields.io/badge/AMH-artificialmindhive.com-f5a623?style=for-the-badge&labelColor=0b1020" alt="artificialmindhive.com"></a>
-  <a href="https://amhagentbook.com"><img src="https://img.shields.io/badge/Agent%20Book-amhagentbook.com-22d3ee?style=for-the-badge&labelColor=0b1020" alt="amhagentbook.com"></a>
-  <a href="https://amhagentbook.com/poem/"><img src="https://img.shields.io/badge/The%20Poem-daily%20AI%20lines-a3e635?style=for-the-badge&labelColor=0b1020" alt="The AMH poem"></a>
-  <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="https://img.shields.io/badge/Prime%20Hunt-noon%20LA%20daily-a855f7?style=for-the-badge&labelColor=0b1020" alt="Prime Hunt"></a>
-  <a href="https://walohq.com"><img src="https://img.shields.io/badge/WALO-walohq.com-25d366?style=for-the-badge&labelColor=0b1020" alt="walohq.com"></a>
+  <a href="https://artificialmindhive.com"><img src="assets/amh-logos-float.webp" alt="AMH robot sign, AMH logo, Jubber and the WT walrus" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="assets/amh-walo-wt.svg" alt="AMH · WALO AI · WT" width="720"></a>
+</p>
+
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="assets/btn/amh.svg" alt="Artificial Mind Hive" width="300"></a>
+  <a href="https://walohq.com"><img src="assets/btn/walo.svg" alt="WALO on WhatsApp" width="300"></a>
+  <a href="https://artificialmindhive.com/WT/"><img src="assets/btn/wt.svg" alt="WT Walrus Tusk" width="300"></a>
+  <a href="https://amhagentbook.com"><img src="assets/btn/agentbook.svg" alt="Agent Book" width="300"></a>
+  <a href="https://amhagentbook.com/poem/"><img src="assets/btn/poem.svg" alt="AI Poem Experiment" width="300"></a>
+  <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="assets/btn/prime.svg" alt="Prime Hunt" width="300"></a>
+  <a href="https://nothingunseen.com"><img src="assets/btn/nu.svg" alt="Nothing Unseen" width="300"></a>
 </p>
 
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
@@ -45,15 +55,31 @@ I see **one pattern across three superpositions**: quantum (physics), features p
 
 ### What I've built (each one solved a real problem)
 
-**🛰️ Multi-Agent Orchestration Fleet** — a **9-lane fleet** (6 cloud + 3 local LLM lanes) with a conductor that partitions work so agents can't collide, **free-first control flow** (cloud escalates only after local retries fail), a **"retry-till-real" quality gate** so it never ships a fake result, and a **self-refilling, deduped** queue for 24/7 autonomy. Runs **$0** on a rotating free-model pool.
+#### <a href="https://artificialmindhive.com/WT/"><img src="assets/icons/wt.png" alt="WT" width="34" height="34" align="center"></a> WT · Walrus Tusk: the CF Ops hub
+My own MCP server (**mcp.artificialmindhive.com**) that lets AI agents (Claude, Grok, Codex) run real Cloudflare work through **bounded tools**: patch a live site file by file with health checks and **automatic rollback**, a separate key for every agent, human approval for anything risky, and a landing guard that snapshots every live site and restores it in seconds.
 
-**🚦 Roadscape** — a corridor-safety **screening engine**: free public data (federal crash records, state traffic counts) + AASHTO swept-path geometry → evidence packets, a real-scale collision-free 3D traffic sim, and an agent that ranks real cities in need. Honest guardrails throughout — *screening-grade, never PE-stamped; measured vs. estimated always labeled; never a fabricated number.*
+#### <a href="https://walohq.com"><img src="assets/icons/walo.png" alt="WALO" width="34" height="34" align="center"></a> WALO: AI agents on WhatsApp
+Text an agent by name (**Grok**, **Claude**, **Jubber**) from my phone and it does the job: writes the code, **lands it live on Cloudflare Workers and Pages** through the CF Ops hub, and texts back what it shipped. Grok has landed live commits this way **straight from the Grok app on my phone**. Plus email, calendars, SEO checks, food logs and business tools, all inside WhatsApp.
 
-**🔎 NeighborDoors** — a multi-source **search + investigation engine** with cross-source corroboration and cited AI briefs. Migrated off a capped host onto Cloudflare Workers; AI runs on a free-model pool ($0).
+#### <a href="https://amhagentbook.com"><img src="assets/icons/robo.png" alt="AMH" width="34" height="34" align="center"></a> Multi-Agent Orchestration Fleet
+a **9-lane fleet** (6 cloud + 3 local LLM lanes) with a conductor that partitions work so agents can't collide, **free-first control flow** (cloud escalates only after local retries fail), a **"retry-till-real" quality gate** so it never ships a fake result, and a **self-refilling, deduped** queue for 24/7 autonomy. Runs **$0** on a rotating free-model pool.
 
-**🐝 Apiary** — an accessibility-first web experience for the tech-isolated (the *"damn, grandma, how'd you do that?"* moment as the actual KPI) with a self-evolving article fleet that compounds on its own past insights.
+#### <a href="https://getroadscape.com"><img src="assets/icons/roadscape.png" alt="Roadscape" width="34" height="34" align="center"></a> Roadscape
+a corridor-safety **screening engine**: free public data (federal crash records, state traffic counts) + AASHTO swept-path geometry → evidence packets, a real-scale collision-free 3D traffic sim, and an agent that ranks real cities in need. Honest guardrails throughout — *screening-grade, never PE-stamped; measured vs. estimated always labeled; never a fabricated number.*
 
-**⚙️ Service Pricer** — rescued a 144-route Next.js app off a capped host onto Cloudflare Workers, keeping locked payment code untouched and squeezing it under a hard size cap. No regression.
+#### <a href="https://nothingunseen.com"><img src="assets/icons/nu.png" alt="Nothing Unseen" width="34" height="34" align="center"></a> Nothing Unseen
+a multi-source **search + investigation engine** with cross-source corroboration and cited AI briefs. Migrated off a capped host onto Cloudflare Workers; AI runs on a free-model pool ($0).
+
+#### 🐝 Apiary
+an accessibility-first web experience for the tech-isolated (the *"damn, grandma, how'd you do that?"* moment as the actual KPI) with a self-evolving article fleet that compounds on its own past insights.
+
+#### <a href="https://servicepricer.app"><img src="assets/icons/servicepricer.png" alt="Service Pricer" width="34" height="34" align="center"></a> Service Pricer
+rescued a 144-route Next.js app off a capped host onto Cloudflare Workers, keeping locked payment code untouched and squeezing it under a hard size cap. No regression.
+
+---
+
+#### <a href="https://amhagentbook.com/poem/"><img src="assets/icons/poem.png" alt="AI Poem" width="34" height="34" align="center"></a> The AI Poem Experiment + <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="assets/icons/prime.png" alt="Prime Hunt" width="34" height="34" align="center"></a> Prime Hunt
+A poem written every day by my AI agents (and anyone who wants to add a line), plus a daily **Prime Hunt** where one agent proves real primes and leaves a note for the next. They run on GitHub Actions with no PC on, and if one agent is down another covers. Live at **[amhagentbook.com/poem](https://amhagentbook.com/poem/)**.
 
 ---
 
