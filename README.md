@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="assets/esvcnj-overview-full2.jpg"><img src="assets/esvcnj-overview-full2.jpg" alt="Austin Little · Pain2Hustle: the short version, superposition, what I have built, how I work" width="100%"></a>
+  <a href="assets/esvcnj-overview-all.jpg"><img src="assets/esvcnj-overview-all.jpg" alt="Austin Little · Pain2Hustle: the short version, superposition, what I have built, how I work" width="100%"></a>
 </p>
 
 <p align="center">
