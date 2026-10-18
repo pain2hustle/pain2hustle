@@ -7,11 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
-</p>
-
-<p align="center">
-  <a href="assets/esvcnj-overview-2.jpg"><img src="assets/esvcnj-overview-2.jpg" alt="Austin Little · Pain2Hustle, part 2: the superposition deep dive and what I have built" width="100%"></a>
+  <a href="assets/esvcnj-overview-full.jpg"><img src="assets/esvcnj-overview-full.jpg" alt="Austin Little · Pain2Hustle: the short version, superposition, what I have built, how I work" width="100%"></a>
 </p>
 
 <p align="center">
