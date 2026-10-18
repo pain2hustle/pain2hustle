@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-gold.webp" alt="The AMH UFO with Jubber, passing a golden spiral galaxy" width="100%"></a>
+  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-green.webp" alt="The AMH UFO with Jubber in a green and purple universe nebula" width="100%"></a>
 </p>
 
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
