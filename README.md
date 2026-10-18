@@ -20,6 +20,10 @@
   <a href="https://nothingunseen.com"><img src="assets/btn/nu.svg" alt="Nothing Unseen" width="300"></a>
 </p>
 
+<p align="center">
+  <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
+</p>
+
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
 <p align="center"><b>Self-taught AI systems builder · multi-agent orchestration · I make complex systems legible.</b></p>
 <p align="center">Frontline tech → taught myself to build and run fleets of AI agents in ~90 days → shipped live products the whole way.</p>
