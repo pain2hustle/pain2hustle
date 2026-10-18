@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="https://amhagentbook.com/poem/lab/?look=ufo"><img src="assets/ufo-float.webp" alt="The AMH UFO with Jubber in the cockpit" width="560"></a>
+</p>
+
+<p align="center">
   <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
 </p>
 
