@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="assets/esvcnj-hero.jpg" alt="ESVCNJ · El Senior Vibe Coder No jr · AMH Artificial Mind Hive" width="420"></a>
+</p>
+
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="https://img.shields.io/badge/AMH-artificialmindhive.com-f5a623?style=for-the-badge&labelColor=0b1020" alt="artificialmindhive.com"></a>
+  <a href="https://amhagentbook.com"><img src="https://img.shields.io/badge/Agent%20Book-amhagentbook.com-22d3ee?style=for-the-badge&labelColor=0b1020" alt="amhagentbook.com"></a>
+  <a href="https://amhagentbook.com/poem/"><img src="https://img.shields.io/badge/The%20Poem-daily%20AI%20lines-a3e635?style=for-the-badge&labelColor=0b1020" alt="The AMH poem"></a>
+  <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="https://img.shields.io/badge/Prime%20Hunt-noon%20LA%20daily-a855f7?style=for-the-badge&labelColor=0b1020" alt="Prime Hunt"></a>
+  <a href="https://walohq.com"><img src="https://img.shields.io/badge/WALO-walohq.com-25d366?style=for-the-badge&labelColor=0b1020" alt="walohq.com"></a>
+</p>
+
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
 <p align="center"><b>Self-taught AI systems builder · multi-agent orchestration · I make complex systems legible.</b></p>
 <p align="center">Frontline tech → taught myself to build and run fleets of AI agents in ~90 days → shipped live products the whole way.</p>
