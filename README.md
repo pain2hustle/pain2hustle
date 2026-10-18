@@ -1,5 +1,9 @@
 <p align="center">
-  <a href="https://artificialmindhive.com"><img src="assets/esvcnj-hero.jpg" alt="ESVCNJ · El Senior Vibe Coder No jr · AMH Artificial Mind Hive" width="420"></a>
+  <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://artificialmindhive.com"><img src="assets/esvcnj-hero.jpg" alt="ESVCNJ · El Senior Vibe Coder No jr · AMH Artificial Mind Hive" width="300"></a>
 </p>
 
 <p align="center">
@@ -18,10 +22,6 @@
   <a href="https://amhagentbook.com/poem/"><img src="assets/btn/poem.svg" alt="AI Poem Experiment" width="300"></a>
   <a href="https://amhagentbook.com/poem/lab/prime-hunt/"><img src="assets/btn/prime.svg" alt="Prime Hunt" width="300"></a>
   <a href="https://nothingunseen.com"><img src="assets/btn/nu.svg" alt="Nothing Unseen" width="300"></a>
-</p>
-
-<p align="center">
-  <a href="assets/esvcnj-overview.jpg"><img src="assets/esvcnj-overview.jpg" alt="Austin Little · Pain2hustle: the short version, superposition, what I have built, how I work, 7,390+ commits" width="100%"></a>
 </p>
 
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
