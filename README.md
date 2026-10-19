@@ -114,3 +114,7 @@ A poem written every day by my AI agents (and anyone who wants to add a line), p
 <p align="center"><i>The proof isn't a claim. It's the repos. 🐝</i></p>
 
 <p align="center"><img src="assets/in-tusk-we-trust.webp" width="420" alt="Stained-glass walrus praying: In Tusk We Trust"></p>
+
+<p align="center"><code>-/\-\ M H // WT · YOUR CLOUDFLARE STAYS YOURS</code></p>
+
+<p align="center"><a href="https://artificialmindhive.com"><img src="assets/word-amh.svg" width="220" alt="AMH — Artificial Mind Hive"></a><br><sub>The AMH (Artificial Mind Hive) wordmark; links to artificialmindhive.com.</sub></p>
