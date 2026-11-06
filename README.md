@@ -39,14 +39,14 @@
 </p>
 
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
-<p align="center"><b>Self-taught AI systems builder · multi-agent orchestration · I make complex systems legible.</b></p>
-<p align="center">Frontline tech → taught myself to build and run fleets of AI agents in ~90 days → shipped live products the whole way.</p>
+<p align="center"><b>AI systems builder · multi-agent orchestration · I make complex systems legible.</b></p>
+<p align="center">Frontline tech → once I really picked up AI, built and ran fleets of AI agents in about 90 days → shipped live products the whole way.</p>
 
 ---
 
 ### The short version
 
-No ML degree. No lab. I came off years of frontline technical work — AT&T field tech, wire rooms and internet-signal work, medical-equipment onboarding. Then in about 90 days I taught myself to build and run **coordinated fleets of AI agents**, hit the real coordination-and-legibility problems the field writes papers about, and **engineered the fixes into working code** across several live products.
+No ML degree. No lab. I came off years of frontline technical work — AT&T field tech, wire rooms and internet-signal work, medical-equipment onboarding. Then, once I really picked up AI, in about 90 days I built and ran **coordinated fleets of AI agents**, hit the real coordination-and-legibility problems the field writes papers about, and **engineered the fixes into working code** across several live products.
 
 I don't theorize. I build it, watch it break, and fix it. Everything below is verifiable in the repos.
 
