@@ -41,6 +41,7 @@
 <h1 align="center">Austin Little · <code>Pain2HuStle</code></h1>
 <p align="center"><b>AI systems builder · multi-agent orchestration · I make complex systems legible.</b></p>
 <p align="center">Frontline tech → once I really picked up AI, built and ran fleets of AI agents in about 90 days → shipped live products the whole way.</p>
+<p align="center"><a href="https://www.linkedin.com/in/austin-little-AMH">LinkedIn</a> · <a href="https://www.wikidata.org/wiki/Q141966969">Wikidata</a> · <a href="https://nothingunseen.com/austin">Resume</a></p>
 
 ---
 
